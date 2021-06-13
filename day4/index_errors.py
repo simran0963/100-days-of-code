@@ -4,6 +4,6 @@ states_of_america = ("Alabama", "Alaska", "Arizona", "Arkansas", "California", "
 "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington"
 "West Virginia", "Wisconsin", "Wyoming")
 
-num_of_states = len(states_of_america) - 1
+num_of_states = len(states_of_america)
 
-print(states_of_america[num_of_states])
+print(states_of_america[num_of_states - 1])
