@@ -1,0 +1,38 @@
+A. Conditional statements:used when you have some conditions for your code to execute.
+
+NOTE*: when the conditional statements are used after our condition a ':' is used, followed by a strict indentation 
+       pattern which remains unchanged for the upcoming conditions.
+       
+	1. if statement:
+		-> when the input satisfies the given condition only then execution of code occurs or it will be ignored.
+
+	2. else statement:
+		-> when the above conditions does not hold, true only then will it come to action.
+
+	3. elif statement:
+		-> when there are more than two conditions instead of using if we use elif or elseif statement.
+
+
+B.Comparison operators:
+	1. greater than (>)
+	2. less than (<)
+	3. greater than or equal to: (>=)
+	4. less than or equal to (<=)
+	5. equal to (==)
+	6. not equal to (!=)
+
+NOTE*: in python '=' is used to assign the value on the rhs to the lhs variable whereas
+        '==' is used to check if lhs value and rhs value are equal or not.
+
+C. Modulo(%) sign gives us the remainder after dividing the first no. with the second one.
+
+D. Nested if/else statements:
+	-> if the condition for an if or else statement comes true then another if/else condition within it.
+
+E. Logical operators:
+	1. and operator: only if both the values are true, the answer will be true.
+	2. or operator: if either of the value first or second or both are true then the entire statement is true. 
+	3. not operator: it reverses the value from true to false and vice versa.
+
+F. lower() function: reduce all the alhabets to lower case.
+G. count() function: no. of times an alphabet occurs in a string.
