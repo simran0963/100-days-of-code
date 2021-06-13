@@ -14,5 +14,10 @@ Randomisation and python lists
 	   position of the list is the offset from the beginning or index and the negative index starts from the end of the list.
 	4. list[position] = new name to the item: to change the items of the list.
 	5. list.append: adds a new item to the end of the list.
+	6. list.extend is used to add a bunch of items to the list.
 
      more lists refer: docs.python.org/3/tutorial/datastructures.html	
+
+     Index Errors: when something is out of index or cannot be found.
+     Nested lists or list within a list:
+	1. list = [list1, list2]
