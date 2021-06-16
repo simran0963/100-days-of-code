@@ -1,0 +1,8 @@
+Defining and calling your own functions
+	1. you can define your own functions by using a def and entering the name you want to give your function followed by a set of parenthesis and :.
+	2. then specify what you want the function to do within indentation.
+	3. enter the function you created for it to come to action.
+
+WHILE LOOP:
+	1. the code keeps running repeatedly if the condition is true and stops once the condition is false.
+	2. while under the While loop if, elif and else statements can be used with indentation.
