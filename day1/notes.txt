@@ -13,14 +13,14 @@
 
 	4. Debugging:
 		-> look for the errors and try to debug or fix it.
-		-> to debug your code just copy the error and look for it on stack overflow.
-	
+		-> to debug your code just copy and paste on thonny if error is spotted then look for it on stack overflow.
+
 	5. Input function
-		-> code execution does not end after it runs but after the input is given.
+		-> Code execution of the further lines happens only when an input is provided.
 		-> works like the print fuxn and the (" ") are used.  
 
 	6. Comment: 
-		->  a '#' is used before the text                            
+		->  a '#' is used before the text.                            
 		-> can be used to explain our code.
 		-> is never executed and ignored by the comp.
 		-> to add a line to comment select the line and press ctrl + /.
