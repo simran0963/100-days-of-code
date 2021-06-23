@@ -1,0 +1,41 @@
+                                                                                         BASICS OF PYTHON
+
+	1. Print function
+		-> use print() {then "" for strings} to avoid syntax error.
+		-> try to avoid using "" twice in a line.
+		-> to print a text on separate lines use \n (without any space) using only one fuxn.
+
+	2. String Concatenation:
+		-> takes the characters of the string to merge them into one  (without any space btwn them). 
+		-> use "text" + "text" to concatenate.
+
+	3. Space in Python matters to avoid indentation errors.
+
+	4. Debugging:
+		-> look for the errors and try to debug or fix it.
+		-> to debug your code just copy and paste on thonny if error is spotted then look for it on stack overflow.
+
+	5. Input function
+		-> Code execution of the further lines happens only when an input is provided.
+		-> works like the print fuxn and the (" ") are used.  
+
+	6. Comment: 
+		->  a '#' is used before the text.                            
+		-> can be used to explain our code.
+		-> is never executed and ignored by the comp.
+		-> to add a line to comment select the line and press ctrl + /.
+		-> to remove press ctrl + z.
+
+	7.  Length function:
+		-> use to get the no. of char. in the given string.
+		-> len() is used.
+
+		
+
+	8. Variables
+		-> try to use a meaningful name to make ur code readable.
+		-> a variable can be anything, but try to avoid fuxns as the name of vari.
+		-> can be changed at any point of time.
+		-> use a single unit as a variable or sep. two words using an '_'.
+		-> avoid no. at the beginning of the name of variables.
+	
