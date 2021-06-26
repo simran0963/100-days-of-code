@@ -18,7 +18,7 @@ programming_dictionary["Loop"] = "The action of doing something over and over ag
 programming_dictionary["Bug"] = "A moth in your computer."
 # print(programming_dictionary)
 
-#Loop through thr dictionary
+#Loop through the dictionary
 for key in programming_dictionary :
   print(key)
   print(programming_dictionary[key])

@@ -24,9 +24,11 @@ dictionary name = {}
 dictionary name["key"] = "New definition to the key."
 print(dictionary name)
 
-#Loop through thr dictionary
-for thing in programming_dictionary :
-  print(thing) would only print the keys.
+#Loop through the dictionary
+for key in dictionary name :
+  print(key) would only print the keys.
 
 to print key along with its definition:
-
+for key in dictionary name :
+  print(key)
+  print(dictinary name[key])
