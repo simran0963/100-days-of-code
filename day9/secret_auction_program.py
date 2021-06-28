@@ -1,9 +1,12 @@
-from replit import clear
+import os
 from art import logo
 print(logo)
 
 bids = {}
 bidding_finished = False
+
+def clear():
+  os.system('cls')
 
 def find_highest_bidder(bidding_record):
   highest_bid = 0
