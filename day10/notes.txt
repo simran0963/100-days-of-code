@@ -1,0 +1,5 @@
+Functions with outputs
+1. The python return statement is used in a function to return the value to the caller program, which is used only within the function.
+2. If the return statement contains an expression, it’s evaluated first and then the value is returned, which terminates the execution of 
+   the function
+3. A function can have multiple return statements having mutliple types of values. When any of them is executed, the function terminates.
