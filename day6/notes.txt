@@ -5,4 +5,4 @@ Defining and calling your own functions
 
 WHILE LOOP:
 	1. the code keeps running repeatedly if the condition is true and stops once the condition is false.
-	2. while under the While loop if, elif and else statements can be used with indentation.
+	2. when under the While loop if, elif and else statements can be used with indentation.
