@@ -1,3 +1,4 @@
+#Design a program to calculate the average height of the students
 student_heights = input("Input the list of student heights ").split() 
 for n in range(0, len(student_heights)):
   student_heights[n] = int(student_heights[n])
