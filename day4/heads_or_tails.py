@@ -1,3 +1,4 @@
+#import a random module to select either heads or tails
 import random
 
 random_integer = random.randint(0, 1)
