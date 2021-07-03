@@ -1,3 +1,5 @@
+#An improved version of the BMI calculator
+ 
 weight = input("enter your weight in kg ")
 weight = int(weight)
 height = input("enter your height in m ")
