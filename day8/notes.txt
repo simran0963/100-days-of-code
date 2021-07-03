@@ -15,3 +15,10 @@ FUNCTIONS WITH INPUTS
 	How's the weather today in jack?
     -> so instead keyword arguments are used, where
       # the calling function would be greet_with_name(name = "jack", location = "somewhere")
+
+  TO USE THE CLEAR FUNCTION OR IMPORT CLEAR WHILE USING VSCODE USE:
+    import os
+    def clear():
+    	os.system('cls') to define the function
+
+    clear() to call the function
