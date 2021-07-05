@@ -16,4 +16,11 @@ Return keyword
       For the given code, the result would be given as:
          6, which proves that the value of 3 + 3 is returned to the function but the next statement never executes.
    3. multiple return statements can be used in a function
-   
+
+
+Docstrings:
+   Docstrings or documentation strings are usually given after the declaration of the function.
+   1. The first indended line of defining a function within """ """ or''' ''' are Docstrings.
+   2. provide a convenient way of associating documentation wit pythin midules, functions, classes, and methods.
+      or they are used to document our code.
+   3. These docstrings can be accessed using the __doc__ attribute.
