@@ -24,3 +24,15 @@ Docstrings:
    2. provide a convenient way of associating documentation wit pythin midules, functions, classes, and methods.
       or they are used to document our code.
    3. These docstrings can be accessed using the __doc__ attribute.
+
+Print VS Return
+  1. Use print when you want to show a value an an output. Return is a keyword. When a return statement is reached, Python will stop the execution 
+     of the current function, sending a value out to where the function was called. Use return when you want to send a value from one point in 
+     your code to another. Using return changes the flow of the program.
+
+Flags
+  1. A ﬂag variable can be used to let one part of your program know when something happens in another part of the program.
+
+Recursion
+   1. Recursion is a common mathematical and programming concept. It means that a function calls itself. This has the benefit of meaning that we 
+      can loop through data to reach a result.
