@@ -1,0 +1,48 @@
+SCOPES 
+	A variable is only available from inside the region it is created. This is called scope.
+
+TYPES OF SCOPES
+	1. Local Scope:
+		A variable created inside a function belongs to the local scope of that function, and can only be used inside that function.
+			A variable created inside a function is available inside that function for eg.,:
+
+			def myfunc():
+				x = 300
+				print(x)
+
+			myfunc()
+
+	2. Function Inside Function
+		As in the example above, the variable x is not available outside the function, but it is available for any function inside the function:
+		The local variable can be accessed from a function within the function for eg.,:
+
+			def myfunc():
+				x = 300
+				def myinnerfunc():
+					print(x)
+				myinnerfunc()
+
+			myfunc()
+
+	3. Global Scope
+		A variable created in the main body of the Python code is a global variable and belongs to the global scope.
+		Global variables are available from within any scope, global and local.
+		A variable created outside of a function is global and can be used by anyone for eg.,:
+
+			x = 300
+
+			def myfunc():
+				print(x)
+
+			myfunc()
+
+			print(x)
+
+NOTE*: To set a Global constant i.e., if you never wish to change it's value then set it as a Global Scope with all uppercases, if you do so,
+			 then everytime you mention the variable, you get a warning that Global constant cannot be changed.
+
+			 In python, there is no Block Scope. Inside a if/else/for/while, code block is the same as outside.
+
+	BLOCK SCOPE:
+		Block scoping means declaring a variable, not just inside a function, but around any curly brackets like if statements or loops. The 
+		variable itself let i is still in memory, but the engine just won't allow you to access it like before when we used var.
