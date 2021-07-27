@@ -1,9 +1,0 @@
-LOOPS
-  1. Loops allow us to execute the same line of code multiple times.
-  2. they are written as for 'what you call the single element in the list' in 'variable used for the list'
-  3. For loops in range:
-	->for run the loop in a particular range of numbers use 
-	      for number in range(first num., second num., third num.)
-	      first num.: from where the loop is to start, including the num. itself.
-	      second num.: uptil where the loop will run, excluding the num.
-	      third num.: the step size of the loop or to jump on the nth num., by default it is set to 1 so all the nums. are printed.
