@@ -229,7 +229,7 @@ Dictionaries in python:
     every dictionary has two parts to it:
       -> Key: the word itself
       -> Value: definition of the word 
-  2. items within the dictionary are kept within the {} and separated with a ','.
+  2. items within the lists are kept within the {} and separated with a ','.
   3. if the key is a string then it is given under a set if "key" and it's definition is kept within the "definition" too,correct datatypes 
      should be used
 
