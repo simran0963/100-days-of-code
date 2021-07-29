@@ -40,7 +40,7 @@ def game():
 		print(vs)
 		print(f"Against B: {format_data(account_b)}")
 
-		guess = input("Who has more folowers? Type 'A' or 'B'.").lower()
+		guess = input("Who has more followers? Type 'A' or 'B'.").lower()
 
 		a_follower = account_a['follower_count']
 		b_follower = account_b['follower_count']
