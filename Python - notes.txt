@@ -371,3 +371,13 @@ DEBUGGING PROJECTS______________________________________________________________
 
 DAY XIV
 
+
+HIGHER OR LOWER GAME______________________________________________________________________________________________________________________________________
+
+##########################################################################################################################################################
+
+DAY XV
+
+IDE: This stands for Integrated Development Environment.
+	1. This is a software that helps us with linting our code, finding errors in it, guides us with our coding style, helps us debug the code while mwe are creating our code.
+	Some of the popular IDE's are: Jupyter, spider, vim, thonny, vs code, atom ,sublime etc.
