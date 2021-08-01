@@ -5,4 +5,4 @@ print(city)
 pet = input("What's the name of your pet?\n")
 print(pet) 
 
-print("The name of your band could be " + city + " "+ pet)
+print("The name of your band could be " + city + " " + pet)

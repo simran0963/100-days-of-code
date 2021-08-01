@@ -1,3 +1,3 @@
-name = input("enter your name ")
+name = input("enter your name: ")
 length = len(name)
 print(length)
