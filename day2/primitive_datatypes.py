@@ -1,6 +1,6 @@
 #String
 
-"Hello"[3]
+print("Hello"[3])
 
 print("123" + "345")
 
@@ -8,7 +8,7 @@ print("123" + "345")
 
 print (123 + 345)
 
-123_456_789
+print(123_456_789)
 
 #Float
 

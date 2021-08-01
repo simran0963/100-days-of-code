@@ -7,8 +7,6 @@ people = input("How many people to split the bill? ")
 people = int(people)
 
 
-x = float(bill + bill * (tip/100))
-x /= people
-
-
-print(f"Each person should pay: Rs", x)
+final_value = float(bill + bill * (tip/100))
+final_value /= people
+print(f"Each person should pay: Rs", final_value)
