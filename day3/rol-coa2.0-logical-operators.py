@@ -1,3 +1,10 @@
+import os
+
+def clear():
+	os.system('cls')
+
+clear()
+
 # and or not are some basic logical operators. Line 16 shows the use of the logical operator "and"
 print("Welcome to the roller coaster")
 height = int(input("What is your height in cm? "))

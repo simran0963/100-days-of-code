@@ -1,3 +1,10 @@
+import os
+
+def clear():
+	os.system('cls')
+
+clear()
+
 print("Leap year finder.")
 year = input("Enter the year you want to check: ")
 year =int(year)

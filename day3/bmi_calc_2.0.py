@@ -1,3 +1,9 @@
+import os
+
+def clear():
+	os.system('cls')
+
+clear()
 #An improved version of the BMI calculator
  
 weight = input("enter your weight in kg ")

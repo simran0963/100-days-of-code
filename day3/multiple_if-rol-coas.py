@@ -1,3 +1,10 @@
+import os
+
+def clear():
+	os.system('cls')
+
+clear()
+
 print("Welcome to the roller coaster")
 height = int(input("What is your height in cm? "))
 bill = 0

@@ -1,3 +1,10 @@
+import os
+
+def clear():
+	os.system('cls')
+
+clear()
+
 print("Welcome to Python Pizza deliveries!")
 
 print("Small Pizza: Rs 100")
