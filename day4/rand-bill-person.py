@@ -1,3 +1,10 @@
+import os
+
+def clear():
+	os.system('cls')
+
+clear()
+
 import random
 names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")

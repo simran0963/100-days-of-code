@@ -1,3 +1,10 @@
+import os
+
+def clear():
+	os.system('cls')
+
+clear()
+
 states_of_america = ["Delaware", "Pennsylvania", "New Jersey"]
 print(states_of_america[0])
 print(states_of_america[-1])

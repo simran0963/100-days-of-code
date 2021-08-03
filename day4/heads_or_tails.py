@@ -1,3 +1,10 @@
+import os
+
+def clear():
+	os.system('cls')
+
+clear()
+
 #import a random module to select either heads or tails
 import random
 
