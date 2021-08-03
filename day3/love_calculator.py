@@ -1,33 +1,53 @@
+import os
+
+def clear():
+	os.system('cls')
+
+clear()
+
 print("Welcome to Love Calculator")
-name1 = input("What is your name? ")
-name2 = input("What is their name? ")
-name1 = str(name1)
-name2 = str(name2)
+name1 = str(input("What is your name? ")).lower()
+name2 = str(input("What is their name? ")).lower()
 
-lower_case_name1 = name1.lower()
-lower_case_name2 = name2.lower()
+combined_string = name1 + name2
 
-t = lower_case_name1.count("t")
-r = lower_case_name1.count("r")
-u = lower_case_name1.count("u")
-e = lower_case_name1.count("e")
-l = lower_case_name1.count("l")
-o = lower_case_name1.count("o")
-v = lower_case_name1.count("v")
-e = lower_case_name1.count("e")
+t = combined_string.count("t")
+r = combined_string.count("r")
+u = combined_string.count("u")
+e = combined_string.count("e")
 
-T = lower_case_name2.count("t")
-R = lower_case_name2.count("r")
-U = lower_case_name2.count("u")
-E = lower_case_name2.count("e")
-L = lower_case_name2.count("l")
-O = lower_case_name2.count("o")
-V = lower_case_name2.count("v")
-E = lower_case_name2.count("e")
+true = t + r + u + e
 
-true = int((t+T) + (R+r) + (u+U) + (e+E))
-love = int((l+L) + (o+O) + (v+V) + (e+E))
+l = combined_string.count("l")
+o = combined_string.count("o")
+v = combined_string.count("v")
+e = combined_string.count("e")
+
+love = l + o + v + e
+
 love_score = str(true) + str(love)
+
+# t = combined_string.count("t")
+# r = combined_string.count("r")
+# u = combined_string.count("u")
+# e = combined_string.count("e")
+# l = combined_string.count("l")
+# o = combined_string.count("o")
+# v = combined_string.count("v")
+# e = combined_string.count("e")
+
+# T = combined_string.count("t")
+# R = combined_string.count("r")
+# U = combined_string.count("u")
+# E = combined_string.count("e")
+# L = combined_string.count("l")
+# O = combined_string.count("o")
+# V = combined_string.count("v")
+# E = combined_string.count("e")
+
+# true = int((t+T) + (R+r) + (u+U) + (e+E))
+# love = int((l+L) + (o+O) + (v+V) + (e+E))
+# love_score = str(true) + str(love)
 
 if love_score > "90" or love_score < "10" :
 	print(f"Your score is,", love_score, "you go together like coke and mentos")
