@@ -1,9 +1,10 @@
 import os
 def clear():
 	os.system('cls')
-#Functions with Outputs
+
 clear()
 
+#Functions with Outputs
 formatted_f_name = str(input("enter your first name: ")).title()
 formatted_l_name = str(input("enter your last name: ")).title()
 	
