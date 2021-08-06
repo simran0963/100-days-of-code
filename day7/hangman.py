@@ -1,5 +1,5 @@
 import random
-# Create a words list
+# Create a words list, a list of words
 words_list = ['serendipity', 'petrichor', 'supine', 'solitude', 'aurora']
 #Randomly choose a word from the words list 
 choosen_word = random.choice(words_list)
