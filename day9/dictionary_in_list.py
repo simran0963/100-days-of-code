@@ -1,3 +1,4 @@
+# It is a dictionary within the list
 travel_log = [
     {
         "country": "France",
