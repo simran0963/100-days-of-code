@@ -1,6 +1,6 @@
 DAY I
 
-                                                                                         BASICS OF PYTHON
+    BASICS OF PYTHON
 
 	1. Print function
 		-> use print() {then "" for strings} to avoid syntax error.
@@ -235,7 +235,7 @@ Dictionaries in python:
 
 #Retrieving items from the dictionary
 print(dictionary name["key written exactly same way as in the dictionary"]), use correct datatype.
-  -> do not make a typo while provin=ding the key to the dictionary to avoid key error.
+  -> do not make a typo while providing the key to the dictionary to avoid key error.
 
 #Adding new items to the dictionary
 dictionary name["key"] = "definition of key."
@@ -286,12 +286,12 @@ Return keyword
 Docstrings:
    Docstrings or documentation strings are usually given after the declaration of the function.
    1. The first indended line of defining a function within """ """ or''' ''' are Docstrings.
-   2. provide a convenient way of associating documentation wit pythin midules, functions, classes, and methods.
+   2. provide a convenient way of associating documentation with python modules, functions, classes, and methods.
       or they are used to document our code.
    3. These docstrings can be accessed using the __doc__ attribute.
 
 Print VS Return
-  1. Use print when you want to show a value an an output. Return is a keyword. When a return statement is reached, Python will stop the execution 
+  1. Use print when you want to show a value as an output. Return is a keyword. When a return statement is reached, Python will stop the execution 
      of the current function, sending a value out to where the function was called. Use return when you want to send a value from one point in 
      your code to another. Using return changes the flow of the program.
 
@@ -379,5 +379,29 @@ HIGHER OR LOWER GAME____________________________________________________________
 DAY XV
 
 IDE: This stands for Integrated Development Environment.
-	1. This is a software that helps us with linting our code, finding errors in it, guides us with our coding style, helps us debug the code while mwe are creating our code.
-	Some of the popular IDE's are: Jupyter, spider, vim, thonny, vs code, atom ,sublime etc.
+	1. This is a software that helps us with linting our code, finding errors in it, guides us with our coding style, helps us debug the code while we are
+	creating our code. Some of the popular IDE's are: Jupyter, spider, vim, thonny, vs code, atom ,sublime etc.
+
+##########################################################################################################################################################
+
+DAY XVI
+
+OOP(OBJECT ORIENTED PROGRAMMING):
+	Object Oriented programming (OOP) is a programming paradigm that relies on the concept of classes and objects. It is used to structure a software 
+	program into simple, reusable pieces of code blueprints (usually called classes), which are used to create individual instances of objects. 
+	There are many object-oriented programming languages including JavaScript, C++, Java, and Python.
+
+	1. ATTRIBUTES: variables modelled for an associated object.
+	
+	2. METHODS: functions that a particular modeled object can do.
+
+	3. CLASS: blueprints in OOP.
+		-> A class is usually written with first letter capilalised and words instead of being separated with another capital letter.
+
+	4. OBJECT: individual objects that are generated from the blueprint.
+
+PROCEDRAL PROGRAMMING:
+	Procedural programming is a programming paradigm, derived from imperative programming, based on the concept of the procedure call. Procedures (a 
+	type of routine or subroutine) simply contain a series of computational steps to be carried out. Any given procedure might be called at any point 
+	during a program's execution, including by other procedures or itself. The first major procedural programming languages appeared circa 1957–1964, 
+	including Fortran, ALGOL, COBOL, PL/I and BASIC. Pascal and C were published circa 1970–1972.
