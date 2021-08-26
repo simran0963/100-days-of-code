@@ -391,17 +391,29 @@ OOP(OBJECT ORIENTED PROGRAMMING):
 	program into simple, reusable pieces of code blueprints (usually called classes), which are used to create individual instances of objects. 
 	There are many object-oriented programming languages including JavaScript, C++, Java, and Python.
 
+	Take car as an object and let speed and fuel be its attributes. Then,
+
 	1. ATTRIBUTES: variables modelled for an associated object.
+		To access the attribute, use object.attribute as car.speed to get a hold of speed of the car.
 	
 	2. METHODS: functions that a particular modeled object can do.
+		Functions tied with an object like object.function_associated as car.stop()
 
 	3. CLASS: blueprints in OOP.
-		-> A class is usually written with first letter capilalised and words instead of being separated with another capital letter.
+		-> A class is usually written with first letter capilalised(Pascal Case) and words instead of being separated with '_', another capital letter
+		is used as: CarBlueprint.
 
 	4. OBJECT: individual objects that are generated from the blueprint.
+		as: car = CarBlueprint()
 
 PROCEDRAL PROGRAMMING:
 	Procedural programming is a programming paradigm, derived from imperative programming, based on the concept of the procedure call. Procedures (a 
 	type of routine or subroutine) simply contain a series of computational steps to be carried out. Any given procedure might be called at any point 
 	during a program's execution, including by other procedures or itself. The first major procedural programming languages appeared circa 1957–1964, 
 	including Fortran, ALGOL, COBOL, PL/I and BASIC. Pascal and C were published circa 1970–1972.
+
+After importing the PrettyTable class from the prettytable module:
+	1. Start using with creating an object 
+	2. Columns are added one at a time, using object.add_column("Heading-to-the-table", ['elements contained in it', ''])
+	3. TEXT ALIGNMENT:
+		-> object.align = "l/ r/ c" *c(center is default)
