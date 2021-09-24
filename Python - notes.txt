@@ -417,3 +417,10 @@ After importing the PrettyTable class from the prettytable module:
 	2. Columns are added one at a time, using object.add_column("Heading-to-the-table", ['elements contained in it', ''])
 	3. TEXT ALIGNMENT:
 		-> object.align = "l/ r/ c" *c(center is default)
+
+NOTE*: 1. PascalCase      2. camelCase      3. snake_case
+
+CONSTRUCTOR:
+	Constructing or initialisation of an object.
+	In python creating a constructor is done using the init function, written as:
+		def __init__(self):
