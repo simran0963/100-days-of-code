@@ -1,12 +1,12 @@
 # Let in a restro a waiter is responsible for particular tables and holding a plate as:
-is_holding_plate = True
-tables_responsible = [4, 5, 6] 
+# is_holding_plate = True
+# tables_responsible = [4, 5, 6] 
 
 # Here waiter is an object while the above two variables are considered to be attributes and the ones mentioned below are methods
-def take_order(table, order):
+# def take_order(table, order):
 	#takes order to the chef
 
-def take_payment(amount):
+# def take_payment(amount):
 	#add money to the restaurant
 
 # waiter's a real life object and in OOP these blueprints are called class.

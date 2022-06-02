@@ -393,17 +393,17 @@ OOP(OBJECT ORIENTED PROGRAMMING):
 
 	Take car as an object and let speed and fuel be its attributes. Then,
 
-	1. ATTRIBUTES: variables modelled for an associated object.
+	1. ATTRIBUTES: variables modelled for an associated object.(same a a variable, for a particular object)
 		To access the attribute, use object.attribute as car.speed to get a hold of speed of the car.
 	
-	2. METHODS: functions that a particular modeled object can do.
+	2. METHODS: functions that a particular modeled object can do.(same as functions,for a particular object)
 		Functions tied with an object like object.function_associated as car.stop()
 
-	3. CLASS: blueprints in OOP.
+	3. CLASS: blueprints in OOP.(same kinds of abjects that s=do the same task but have diff names)
 		-> A class is usually written with first letter capilalised(Pascal Case) and words instead of being separated with '_', another capital letter
 		is used as: CarBlueprint.
 
-	4. OBJECT: individual objects that are generated from the blueprint.
+	4. OBJECT: individual objects that are generated from the blueprint or class.
 		as: car = CarBlueprint()
 
 PROCEDRAL PROGRAMMING:
