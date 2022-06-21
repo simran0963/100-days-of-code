@@ -395,9 +395,11 @@ OOP(OBJECT ORIENTED PROGRAMMING):
 
 	1. ATTRIBUTES: variables modelled for an associated object.(same a a variable, for a particular object)
 		To access the attribute, use object.attribute as car.speed to get a hold of speed of the car.
+		Things that an object has, a variable creted inside the object.
 	
 	2. METHODS: functions that a particular modeled object can do.(same as functions,for a particular object)
 		Functions tied with an object like object.function_associated as car.stop()
+		Things that an object does, a function created inside the object. 
 
 	3. CLASS: blueprints in OOP.(same kinds of abjects that s=do the same task but have diff names)
 		-> A class is usually written with first letter capilalised(Pascal Case) and words instead of being separated with '_', another capital letter
@@ -418,9 +420,17 @@ After importing the PrettyTable class from the prettytable module:
 	3. TEXT ALIGNMENT:
 		-> object.align = "l/ r/ c" *c(center is default)
 
+##########################################################################################################################################################
+
+DAY XVII
+
+Pass : This keyword lets us pass over to the next block of code when after using a : indented content is missing.(keeping a function empty)
 NOTE*: 1. PascalCase      2. camelCase      3. snake_case
 
+Pascal case : while creating a class, its name is written in pascal case.
+
 CONSTRUCTOR:
-	Constructing or initialisation of an object.
+	Constructing or initialisation(assigning values/ setting to the starting valuesat the beginning of the program or sub program) of an object.
 	In python creating a constructor is done using the init function, written as:
-		def __init__(self):
+		def __init__(self, par1,par2):
+			self.par1=whatever
