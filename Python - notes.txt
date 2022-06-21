@@ -434,3 +434,10 @@ CONSTRUCTOR:
 	In python creating a constructor is done using the init function, written as:
 		def __init__(self, par1,par2):
 			self.par1=whatever
+
+##########################################################################################################################################################
+
+DAY XVIII
+
+we can also import a library and then give it a name
+	eg, import turtle as t, then in the entire program instead of using turtle.left(), t.left() works fine.
