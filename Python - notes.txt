@@ -441,3 +441,7 @@ DAY XVIII
 
 we can also import a library and then give it a name
 	eg, import turtle as t, then in the entire program instead of using turtle.left(), t.left() works fine.
+
+TUPLE: A Tuple is the same as a list, the difference being that the values it contains cannot be changed/modified at any point of time.
+	   It's immutable, mainly used for the colours within a website, so that it cannot be messed up with.
+	   
