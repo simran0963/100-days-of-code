@@ -444,4 +444,23 @@ we can also import a library and then give it a name
 
 TUPLE: A Tuple is the same as a list, the difference being that the values it contains cannot be changed/modified at any point of time.
 	   It's immutable, mainly used for the colours within a website, so that it cannot be messed up with.
-	   
+
+##########################################################################################################################################################
+
+DAY XIX
+
+The screen.listen methid lets the turtle screen to listen to the users' inputs, like wait until the user presses a button...
+The onkey(), helps us to trigger a particular function when a particular key is pressed
+
+HIGHER ORDER FUNCTIONS:
+	The idea of a higher order function a function work with another function
+	like using a function as an input to another function, so you can work with another function when higher fun is called
+	eg, a calculator function that takes addition, subtraction functions as inputs
+	def add(n1,n2):
+		return n1+n2
+	def calc(n1,n2,add):
+		return add(n1,n2)
+	res = calc(2,3,add)
+
+Always try using Key Arguments rather than positional arguments as in
+	dimensions(l=10,b=5) dimensions(10,5)
