@@ -464,3 +464,14 @@ HIGHER ORDER FUNCTIONS:
 
 Always try using Key Arguments rather than positional arguments as in
 	dimensions(l=10,b=5) dimensions(10,5)
+
+##########################################################################################################################################################
+
+DAY XXI 
+
+CLASS INHERITANCE: Process of inheriting existing behaviour, attributes or appearance from an existing class
+	class Fish(Animal):
+		def __init__(self):
+			super().__init__()
+	here, the class Fish is inheriting from the class Animal, animal being the superclass, super, init is used.
+	
