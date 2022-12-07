@@ -1,11 +1,13 @@
 import os
+from art import logo
 
 def clear():
 	os.system('cls')
 
 clear()
 
-print("Welcome to Love Calculator")
+print(logo)
+print("\n\n")
 name1 = str(input("What is your name? ")).lower()
 name2 = str(input("What is their name? ")).lower()
 
@@ -52,8 +54,8 @@ love_score = str(true) + str(love)
 if love_score > "90" or love_score < "10" :
 	print(f"Your score is,", love_score, "you go together like coke and mentos")
 
-elif love_score > "40" and love_score < "50" :
-	print(f"Your score is,", love_score, "you are alright together.")
+elif love_score >= "20" and love_score < "50" :
+	print(f"Rohit loves you,", int(love_score)+77, "%,you are meant for each other.\n\n\n\n\n\n")
 
 else :
 	print(love_score)
